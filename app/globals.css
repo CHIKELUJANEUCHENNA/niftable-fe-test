@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grad {
+    border-image: linear-gradient(45deg, #3D8BFF, #AB23FF) 1;
+  }
+.market::-webkit-scrollbar {
+  display: none;
+}
+.token::-webkit-scrollbar {
+  display: none;
+}
